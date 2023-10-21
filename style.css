@@ -1,0 +1,60 @@
+/* ilk olarak sıfırlama yaptık çalışma alanızın sınırlarını belirledik verdiğimiz boyutların dışına çıkmasın */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid black;
+    margin: auto;
+    /* auto ile sağdan soldan eşit boşluk bıraksın */
+    padding: 5px;
+}
+
+/* bir class açarak büyük kutuların özelliklerini tanımladık uzun yoldan İD ile de olurdu */
+.buyukKutu {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    /* borderı vermez isek yerleşmde sıkıntılar yaşardık */
+}
+
+.buyukYesil {
+    background-color: green;
+}
+
+.buyukTuruncu {
+    background-color: orange;
+    margin-left: 300px;
+}
+
+.buyukMavi {
+    background-color: blue;
+    margin-left: 600px;
+}
+
+.kucukKutu {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.kucukTuruncu {
+    background-color: orange;
+    margin: 100px auto 0px;
+    /* 100 yukarıdan auto yanlardan 0 aşağıdan */
+}
+
+.kucukMavi {
+    background-color: blue;
+    margin: auto;
+}
+
+.kucukYesil {
+    background-color: green;
+    margin-top: 200px;
+}
